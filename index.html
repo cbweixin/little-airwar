@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> The Air War </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <link rel="stylesheet" type="text/css" href="css/tigerFight.css">
+    </link>
+    <script type="text/javascript" src="javascript/jquery-1.6.2.js">
+    </script>
+    <script type="text/javascript" src="javascript/Util/Class.js">
+    </script>
+    <script type="text/javascript" src="javascript/Util/NameSpace.js">
+    </script>
+    <script type="text/javascript" src="javascript/Util/Method.js">
+    </script>
+    <script type="text/javascript" src="javascript/Util/Timer.js">
+    </script>
+    <script type="text/javascript" src="javascript/Util/Utility.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/FlyController.js">d
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/Observer.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/BulletinBoard.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/Bullet.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/Animation.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/Enemy.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/Enemy2.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/Enemy3.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/Enemy7.js">
+    </script>
+     <script type="text/javascript" src="javascript/Game/Props/Boss1.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/Rewards.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/EnemyFactory.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/EnemyDeployer.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Props/PlayerPlane.js">
+    </script>
+    <script type="text/javascript" src="javascript/Game/Stage/Stage.js">
+    </script>
+    <script type="text/javascript" src="javascript/Menu/SubMenu.js">
+    </script>
+    <script type="text/javascript" src="javascript/Menu/KeySettingMenu.js">
+    </script>
+    <script type="text/javascript" src="javascript/Menu/LevelMenu.js">
+    </script>
+    <script type="text/javascript" src="javascript/Menu/CreditsMenu.js">
+    </script>
+    <script type="text/javascript" src="javascript/Menu/StartGameMenu.js">
+    </script>
+    <script type="text/javascript" src="javascript/Menu/StartMenu.js">
+    </script>
+</head>
+<body>
+<div id="bgImgContainer" class="bgImgContainer">
+    <div id="stageBgPic"></div>
+    <div id="bgImage" class="bgImage">
+        <div id="startGameMenu" class="menuOuter">
+            <p>Start</p>
+        </div>
+        <div id="keySettingMenu" class="menuOuter">
+            <p>Key Setting</p>
+        </div>
+        <div id="levelMenu" class="menuOuter">
+            <p>Level</p>
+        </div>
+        <div id="creditsMenu" class="menuOuter">
+            <p>Credits</p>
+        </div>
+        <div id="submenuContainer" style="width:0px;height:0px;left:265px;top:355px;"></div>
+    </div>
+    <div id="planeLifeStatus" class="planeLifeStatus"></div>
+    <div id="planeScore" class="planeScore"></div>
+    <div id="planeBombState" class="planeBombState"></div>
+    <div id="planeBullet1_0" class="airwar-boss airwar-planeBullet1_Power1" style="visibility: hidden"></div>
+    <div id="enemyBullet1_0" class="airwar-boss airwar-enemyBullet1" style="visibility: hidden;"></div>
+    <div id="enemyBullet2_0" class="airwar-boss airwar-enemyBullet2" style="visibility: hidden;"></div>
+</div>
+<script>
+    $(function() {
+        airwar.Util.Utility.centerElementOnScreen(  $('#bgImgContainer') );
+        airwar.Menu.StartMenu.initBackground();
+    })
+</script>
+</body>
+</html>

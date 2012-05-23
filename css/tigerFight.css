@@ -1,0 +1,315 @@
+.bgImgContainer {
+    position: absolute;
+    width: 530px;
+    height: 100%;
+}
+
+.bgImage {
+    background-image: url(../images/background/mainPicture.gif);
+    width: 530px;
+    height: 710px;
+}
+
+.menuOuter {
+    position: relative;
+    border: 1px solid #F00;
+    text-align: center;
+    width: 230px;
+    height: 30px;
+    font-family: Impact, Arial;
+    background-color: rgb(255, 138, 136);
+    -moz-opacity: 0.5;
+    opacity: .50;
+    filter: alpha(opacity = 50);
+}
+
+#startGameMenu {
+    top: 40%;
+    left: 30%;
+}
+
+#keySettingMenu {
+    top: 42%;
+    left: 30%;
+}
+
+#levelMenu {
+    top: 44%;
+    left: 30%;
+}
+
+#creditsMenu {
+    top: 46%;
+    left: 30%;
+}
+
+#bgImage p {
+    height: 30px;
+    margin: 0px;
+    padding: 4px;
+}
+
+#submenuContainer {
+    /*height   	: 300px;
+     width    	: 300px;*/
+    /*top      	: 28%;
+     left   	 	: 25%;*/
+    position: absolute;
+    border-style: solid;
+    border-color: red;
+    background-color: yellow;
+    border-width: 1px;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    background-image: url('../images/background/submenuBg.png');
+    filter: alpha(opacity = 80);
+}
+
+#keySettingTitle {
+    font-family: Impact, arial;
+    font-size: 20px;
+}
+
+.subMenuStyle div{
+    font-family: Impact, arial;
+    font-size: 16px;
+    position: static;
+}
+
+.subMenuStyle #credits
+{
+    color: #ff0066;
+    line-height: 1.2em;
+}
+
+.stage1 {
+    background-image: url('../images/background/Optimized-stage1.png');
+    position: absolute;
+    width: 100%;
+    height: 3281px;
+}
+
+.stage1IE {
+    background-image: url('../images/background/stage1.png');
+    position: absolute;
+    width: 100%;
+    height: 3281px;
+}
+
+.playerPlane{
+    background-image: url('../images/planes/plane1.gif');
+    position: absolute;
+    width: 60px;
+    height: 53px;
+}
+
+.planeLifeStatus
+{
+    position    : absolute;
+    left        : 10px;
+    top         : 30px;
+    z-index: 1100;
+}
+
+.playerPlaneCount{
+    background-image: url('../images/planes/plane1Count.gif');
+    margin-left: 5px;
+    float: left;
+    width: 30px;
+    height: 26px;
+    z-index: 1100;
+}
+
+.planeBombState{
+    position: absolute;;
+    left: 10px;
+    bottom: 20px;
+    z-index: 1100;
+}
+
+.playerPlaneBomb{
+    background-image: url('../images/planes/listBomb1.gif');
+    margin-left: 5px;
+    float: left;
+    width: 29px;
+    height: 34px;
+    z-index: 1100;
+}
+
+.planeScore{
+    width: 30px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top         : 30px;
+    z-index: 1100;
+}
+
+.airwar-boss{
+    background-image: url('../images/boss.png');
+    background-color: transparent;
+    border-style: none;
+}
+.airwar-bomb1{ background-position: 0 0; width: 56px; height: 28px; }
+.airwar-boss1{ background-position: 0 -78px; width: 324px; height: 189px; }
+.airwar-boss1Bright{ background-position: 0 -317px; width: 324px; height: 189px; }
+.airwar-boss2{ background-position: 0 -556px; width: 299px; height: 281px; }
+.airwar-boss2Bright{ background-position: 0 -887px; width: 299px; height: 281px; }
+.airwar-boss2Left{ background-position: 0 -1218px; width: 130px; height: 184px; }
+.airwar-boss2LeftBright{ background-position: 0 -1452px; width: 130px; height: 184px; }
+.airwar-boss2Right{ background-position: 0 -1686px; width: 130px; height: 186px; }
+.airwar-boss2RightBright{ background-position: 0 -1922px; width: 130px; height: 186px; }
+.airwar-boss3{ background-position: -374px 0; width: 126px; height: 158px; }
+.airwar-boss3Bright{ background-position: -374px -208px; width: 126px; height: 158px; }
+.airwar-boss3Left{ background-position: -374px -416px; width: 126px; height: 115px; }
+.airwar-boss3LeftBright{ background-position: -374px -581px; width: 126px; height: 115px; }
+.airwar-boss3Right{ background-position: -374px -746px; width: 127px; height: 115px; }
+.airwar-boss3RightBright{ background-position: -374px -911px; width: 127px; height: 115px; }
+.airwar-boss4{ background-position: -374px -1076px; width: 332px; height: 303px; }
+.airwar-boss4Bright{ background-position: -374px -1429px; width: 332px; height: 303px; }
+.airwar-concentrationBullet1{ background-position: -374px -1782px; width: 9px; height: 37px; }
+.airwar-enemyBullet1{ background-position: -374px -1869px; width: 11px; height: 10px; }
+.airwar-enemyBullet2{ background-position: -374px -1929px; width: 20px; height: 20px; }
+.airwar-listBomb1{ background-position: -756px 0; width: 29px; height: 34px; }
+.airwar-plane1{ background-position: -756px -84px; width: 60px; height: 53px; }
+.airwar-plane1Count{ background-position: -756px -187px; width: 30px; height: 26px; }
+.airwar-planeBullet1_Power1{ background-position: -756px -263px; width: 15px; height: 51px; }
+.airwar-planeBullet1_Power2{ background-position: -756px -364px; width: 19px; height: 57px; }
+.airwar-planeBullet1_Power3{ background-position: -756px -471px; width: 24px; height: 63px; }
+.airwar-planeBullet1_Power4{ background-position: -756px -584px; width: 28px; height: 78px; }
+.airwar-power1{ background-position: -756px -712px; width: 45px; height: 29px; }
+
+.airwar-enemies{
+    background-image: url('../images/enemies.png');
+    background-color: transparent;
+    border-style: none;
+}
+.airwar-enemy1{ background-position: 0 0; width: 64px; height: 56px; }
+.airwar-enemy10{ background-position: 0 -106px; width: 76px; height: 53px; }
+.airwar-enemy10Bright{ background-position: 0 -209px; width: 76px; height: 53px; }
+.airwar-enemy11{ background-position: 0 -312px; width: 75px; height: 56px; }
+.airwar-enemy11Bright{ background-position: 0 -418px; width: 75px; height: 56px; }
+.airwar-enemy12{ background-position: 0 -524px; width: 72px; height: 70px; }
+.airwar-enemy12Bright{ background-position: 0 -644px; width: 72px; height: 70px; }
+.airwar-enemy13{ background-position: 0 -764px; width: 72px; height: 70px; }
+.airwar-enemy13Bright{ background-position: 0 -884px; width: 72px; height: 70px; }
+.airwar-enemy14{ background-position: 0 -1004px; width: 80px; height: 80px; }
+.airwar-enemy14Bright{ background-position: 0 -1134px; width: 80px; height: 80px; }
+.airwar-enemy15{ background-position: 0 -1264px; width: 80px; height: 80px; }
+.airwar-enemy15Bright{ background-position: 0 -1394px; width: 80px; height: 80px; }
+.airwar-enemy16{ background-position: 0 -1524px; width: 67px; height: 63px; }
+.airwar-enemy16Bright{ background-position: 0 -1637px; width: 67px; height: 63px; }
+.airwar-enemy17{ background-position: 0 -1750px; width: 67px; height: 63px; }
+.airwar-enemy17Bright{ background-position: 0 -1863px; width: 67px; height: 63px; }
+.airwar-enemy18{ background-position: -130px 0; width: 115px; height: 72px; }
+.airwar-enemy18Bright{ background-position: -130px -122px; width: 115px; height: 72px; }
+.airwar-enemy19{ background-position: -130px -244px; width: 175px; height: 164px; }
+.airwar-enemy19Bright{ background-position: -130px -458px; width: 175px; height: 164px; }
+.airwar-enemy1Bright{ background-position: -130px -672px; width: 64px; height: 56px; }
+.airwar-enemy2{ background-position: -130px -778px; width: 199px; height: 140px; }
+.airwar-enemy20{ background-position: -130px -968px; width: 75px; height: 102px; }
+.airwar-enemy20Bright{ background-position: -130px -1120px; width: 75px; height: 102px; }
+.airwar-enemy21{ background-position: -130px -1272px; width: 63px; height: 65px; }
+.airwar-enemy21Bright{ background-position: -130px -1387px; width: 63px; height: 65px; }
+.airwar-enemy22{ background-position: -130px -1502px; width: 177px; height: 155px; }
+.airwar-enemy22Bright{ background-position: -130px -1707px; width: 177px; height: 155px; }
+.airwar-enemy23{ background-position: -130px -1912px; width: 124px; height: 96px; }
+.airwar-enemy23Bright{ background-position: -379px 0; width: 124px; height: 96px; }
+.airwar-enemy24{ background-position: -379px -146px; width: 50px; height: 66px; }
+.airwar-enemy24Bright{ background-position: -379px -262px; width: 50px; height: 66px; }
+.airwar-enemy25{ background-position: -379px -378px; width: 54px; height: 60px; }
+.airwar-enemy25Bright{ background-position: -379px -488px; width: 54px; height: 60px; }
+.airwar-enemy26{ background-position: -379px -598px; width: 66px; height: 58px; }
+.airwar-enemy26Bright{ background-position: -379px -706px; width: 66px; height: 58px; }
+.airwar-enemy27{ background-position: -379px -814px; width: 134px; height: 56px; }
+.airwar-enemy27Bright{ background-position: -379px -920px; width: 134px; height: 56px; }
+.airwar-enemy28{ background-position: -379px -1026px; width: 99px; height: 58px; }
+.airwar-enemy28Bright{ background-position: -379px -1134px; width: 99px; height: 58px; }
+.airwar-enemy29{ background-position: -379px -1242px; width: 127px; height: 116px; }
+.airwar-enemy29Bright{ background-position: -379px -1408px; width: 127px; height: 116px; }
+.airwar-enemy2Bright{ background-position: -379px -1574px; width: 199px; height: 140px; }
+.airwar-enemy3{ background-position: -379px -1764px; width: 202px; height: 93px; }
+.airwar-enemy30{ background-position: -379px -1907px; width: 150px; height: 115px; }
+.airwar-enemy30Bright{ background-position: -631px 0; width: 150px; height: 115px; }
+.airwar-enemy31{ background-position: -631px -165px; width: 70px; height: 65px; }
+.airwar-enemy31Bright{ background-position: -631px -280px; width: 70px; height: 65px; }
+.airwar-enemy32{ background-position: -631px -395px; width: 274px; height: 269px; }
+.airwar-enemy32Bright{ background-position: -631px -714px; width: 274px; height: 269px; }
+.airwar-enemy33{ background-position: -631px -1033px; width: 137px; height: 133px; }
+.airwar-enemy33Bright{ background-position: -631px -1216px; width: 137px; height: 133px; }
+.airwar-enemy34{ background-position: -631px -1399px; width: 47px; height: 72px; }
+.airwar-enemy34Bright{ background-position: -631px -1521px; width: 47px; height: 72px; }
+.airwar-enemy35{ background-position: -631px -1643px; width: 153px; height: 177px; }
+.airwar-enemy35Bright{ background-position: -631px -1870px; width: 153px; height: 177px; }
+.airwar-enemy3Bright{ background-position: -955px 0; width: 202px; height: 93px; }
+.airwar-enemy4{ background-position: -955px -143px; width: 64px; height: 56px; }
+.airwar-enemy4Bright{ background-position: -955px -249px; width: 64px; height: 56px; }
+.airwar-enemy5{ background-position: -955px -355px; width: 62px; height: 89px; }
+.airwar-enemy5Bright{ background-position: -955px -494px; width: 62px; height: 89px; }
+.airwar-enemy6{ background-position: -955px -633px; width: 56px; height: 119px; }
+.airwar-enemy6Bright{ background-position: -955px -802px; width: 56px; height: 119px; }
+.airwar-enemy7{ background-position: -955px -971px; width: 127px; height: 82px; }
+.airwar-enemy7Bright{ background-position: -955px -1103px; width: 127px; height: 82px; }
+.airwar-enemy8{ background-position: -955px -1235px; width: 97px; height: 70px; }
+.airwar-enemy8Bright{ background-position: -955px -1355px; width: 97px; height: 70px; }
+.airwar-enemy9{ background-position: -955px -1475px; width: 303px; height: 143px; }
+.airwar-enemy9Bright{ background-position: -955px -1668px; width: 303px; height: 143px; }
+
+.airwar-animation{
+    background-image: url('../images/animation.png');
+    background-color: transparent;
+    border-style: none;
+}
+
+.airwar-concentration_0{ background-position: 0 0; width: 66px; height: 128px; }
+.airwar-concentration_1{ background-position: 0 -178px; width: 66px; height: 128px; }
+.airwar-concentration_2{ background-position: 0 -356px; width: 66px; height: 128px; }
+.airwar-concentration_3{ background-position: 0 -534px; width: 66px; height: 128px; }
+.airwar-concentration_4{ background-position: 0 -712px; width: 66px; height: 128px; }
+.airwar-concentration_5{ background-position: 0 -890px; width: 66px; height: 128px; }
+.airwar-concentration_6{ background-position: 0 -1068px; width: 66px; height: 128px; }
+.airwar-concentration_7{ background-position: 0 -1246px; width: 66px; height: 128px; }
+.airwar-concentration_8{ background-position: 0 -1424px; width: 66px; height: 128px; }
+.airwar-concentration_9{ background-position: 0 -1602px; width: 66px; height: 128px; }
+.airwar-powerUp1_0{ background-position: -723px -208px; width: 71px; height: 16px; }
+.airwar-powerUp1_1{ background-position: -723px -274px; width: 71px; height: 16px; }
+.airwar-score1000_0{ background-position: -723px -340px; width: 39px; height: 16px; }
+.airwar-score1000_1{ background-position: -723px -406px; width: 39px; height: 16px; }
+.airwar-score2000_0{ background-position: -723px -472px; width: 41px; height: 16px; }
+.airwar-score2000_1{ background-position: -723px -538px; width: 41px; height: 16px; }
+.airwar-score4000_0{ background-position: -723px -604px; width: 42px; height: 16px; }
+.airwar-score4000_1{ background-position: -723px -670px; width: 42px; height: 16px; }
+.airwar-score500_0{ background-position: -723px -736px; width: 31px; height: 16px; }
+.airwar-score500_1{ background-position: -723px -802px; width: 31px; height: 16px; }
+.airwar-score8000_0{ background-position: -723px -868px; width: 41px; height: 16px; }
+.airwar-score8000_1{ background-position: -723px -934px; width: 41px; height: 16px; }
+
+
+.airwar-destroy2{
+    background-image: url('../images/destroy2.png');
+    background-color: transparent;
+    border-style: none;
+}
+
+.airwar-spark1{
+    background-image: url('../images/spark1.png');
+    background-color: transparent;
+    border-style: none;
+}
+
+.airwar-destroy1{
+    background-image: url('../images/destroy1.png');
+    background-color: transparent;
+    border-style: none;
+}
+
+.airwar-gold1{
+    background-image: url('../images/gold1.png');
+    background-color: transparent;
+    border-style: none;
+}
+.airwar-bomb1{
+    background-image: url('../images/bomb1.png');
+    background-color: transparent;
+    border-style: none;
+}
