@@ -57,42 +57,42 @@ airwar.Game.Props.EnemyDeployer = {
 
         pos={left:Math.floor(Math.random()*450), top:0};
         stopPos = {top:this.viewportHeight, left:170};
-        enemy = this._produceEnemies( "enemy1", 600, pos, null, "moveType2", 1, "enemyBullet1", stopPos );
+        enemy = this._produceEnemies( "enemy1", 400, pos, null, "moveType2", 1, "enemyBullet1", stopPos );
         Global.enemies.push( enemy );
 
         pos={left:Math.floor(Math.random()*450), top:0};
         stopPos = {top:this.viewportHeight, left:170};
-        enemy = this._produceEnemies( "enemy1", 660, pos, null, "moveType2", 1, "enemyBullet1", stopPos );
+        enemy = this._produceEnemies( "enemy1", 460, pos, null, "moveType2", 1, "enemyBullet1", stopPos );
         Global.enemies.push( enemy );
 
         pos={left:Math.floor(Math.random()*450), top:0};
         stopPos = {top:this.viewportHeight, left:170};
-        enemy = this._produceEnemies( "enemy1", 700, pos, null, "moveType2", 1, "enemyBullet1", stopPos );
+        enemy = this._produceEnemies( "enemy1", 500, pos, null, "moveType2", 1, "enemyBullet1", stopPos );
         Global.enemies.push( enemy );
 
         pos={left:0, top:300};
         stopPos = {top:100, left:330};
-        enemy = this._produceEnemies( "enemy2", 840, pos, null, "moveType3", 1, "enemyBullet1", stopPos ); //440
+        enemy = this._produceEnemies( "enemy2", 640, pos, null, "moveType3", 1, "enemyBullet1", stopPos ); //440
         Global.enemies.push( enemy );
 
         pos={left:0, top:300};
         stopPos = {top:100, left:230};
-        enemy = this._produceEnemies( "enemy3", 1140, pos, null, "moveType4", 1, "enemyBullet1", stopPos ); // 740
+        enemy = this._produceEnemies( "enemy3", 940, pos, null, "moveType4", 1, "enemyBullet1", stopPos ); // 740
         Global.enemies.push( enemy );
 
-        pos={left:Math.floor(Math.random()*450), top:this.viewportHeight};
+        pos={left:Math.floor(Math.random()*400), top:this.viewportHeight};
         stopPos = {top:30, left:170};
-        enemy = this._produceEnemies( "enemy7", 1350, pos, null, "moveType5", 1, "enemyBullet2", stopPos );
+        enemy = this._produceEnemies( "enemy7", 1150, pos, null, "moveType5", 1, "enemyBullet2", stopPos );
         Global.enemies.push( enemy );
 
         pos={left:Math.floor(Math.random()*450), top:0};
         stopPos = {top:this.viewportHeight, left:170};
-        enemy = this._produceEnemies( "enemy8", 1550, pos, null, "moveType2", 1, "enemyBullet2", stopPos );
+        enemy = this._produceEnemies( "enemy8", 1350, pos, null, "moveType2", 1, "enemyBullet2", stopPos );
         Global.enemies.push( enemy );
 
         pos={left:140, top:0};
         stopPos = {top:this.viewportHeight,bottom:260, left:0, right:206};
-        enemy = this._produceEnemies( "boss1", 1900, pos, null, "moveBoss1", 1, "enemyBullet1", stopPos );
+        enemy = this._produceEnemies( "boss1", 1700, pos, null, "moveBoss1", 1, "enemyBullet1", stopPos );
         Global.enemies.push( enemy );
         
     },

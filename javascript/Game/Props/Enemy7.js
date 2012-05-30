@@ -105,10 +105,8 @@ airwar.Game.Props.Enemy7 = airwar.Game.Props.Enemy.extend( {
             if ( that.HP > 0 )
             {
                 fireGap++;
-                 console.log( fireGap );
                 if ( fireGap % 31 == 0 || fireGap % 31 == 3 || fireGap % 31 == 5 )
                 {
-                    console.log( fireGap + " : " + fireGap % 13 );
                     bullet = airwar.Game.Props.Catridge.getBullet( that.bulletType );
                     var left = that._instance.position().left + 32;
                     var top = that._instance.position().top + 60;
@@ -116,8 +114,6 @@ airwar.Game.Props.Enemy7 = airwar.Game.Props.Enemy.extend( {
                     bullet.setPosition( {"left" : left, "top" : top} );
                     bullet.setStopPos( {top:0, bottom:viewportHeight + 10, left:0, right : viewportWidth} );
                     bullet.setDamage( 10 );
-//                bullet._instance.css( "visibility", "hidden" );
-                    
 
                     bullet.angle = airwar.Util.Utility.getAngle(
                         that._instance.position().left,
@@ -125,8 +121,6 @@ airwar.Game.Props.Enemy7 = airwar.Game.Props.Enemy.extend( {
                         Global.playerPlane._instance.position().left,
                         Global.playerPlane._instance.position().top
                     );
-
-//                    bullet.angle = angle - (that.bulletCount - 1) / 2 * that.angleDistance;
 
                     that.bulletCollections.push( bullet );
                 }

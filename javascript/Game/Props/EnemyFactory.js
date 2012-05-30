@@ -69,6 +69,8 @@ airwar.Game.Props.EnemyFactory = {
                     left    : 5,
                     right   : 5
                 }
+                enemy.setZindex(1003);
+                enemy.setScore(550);
                 this.enemyId++;
                 break;
 
@@ -82,6 +84,8 @@ airwar.Game.Props.EnemyFactory = {
                     left    : 5,
                     right   : 5
                 }
+                enemy.setZindex(1003);
+                enemy.setScore(750);
                 this.enemyId++;
                 break;
 
@@ -95,6 +99,8 @@ airwar.Game.Props.EnemyFactory = {
                     left    : 5,
                     right   : 5
                 }
+                enemy.setZindex(1003);
+                enemy.setScore(750);
                 this.enemyId++;
                 break;
 
@@ -108,6 +114,7 @@ airwar.Game.Props.EnemyFactory = {
                     left    : 5,
                     right   : 5
                 }
+                enemy.setZindex(1003);
                 enemy.setScore(350);
                 this.enemyId++;
                 break;

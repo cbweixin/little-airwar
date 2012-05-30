@@ -138,7 +138,8 @@ airwar.Game.Props.Bullet = Class.extend( {
             case bulletType.PLANEBULLET1 :
                 // clone node to improve performance
                 var bulletId = this.id;
-                $( '#planeBullet1_0' ).clone().attr( "id", "planeBullet1_" + bulletId ).appendTo( '#bgImgContainer' );
+                $( '#planeBullet1_0' ).clone().attr( "id", "planeBullet1_" + bulletId ).css("z-index",1100).
+                            appendTo( '#bgImgContainer' );
 
                 // use css sprite, reduce a lot of requests.
                 this.attackableAreaOffset = {
@@ -151,7 +152,8 @@ airwar.Game.Props.Bullet = Class.extend( {
             case bulletType.ENEMYBULLET1 :
                 var bulletId = this.id;
 //                $('#bgImgContainer').append('<div id=enemyBullet1_' + this.id + '></div>');
-                $( '#enemyBullet1_0' ).clone().attr( "id", "enemyBullet1_" + bulletId ).appendTo( '#bgImgContainer' );
+                $( '#enemyBullet1_0' ).clone().attr( "id", "enemyBullet1_" + bulletId ).css( "z-index",1100 )
+                            .appendTo( '#bgImgContainer' );
 //                $('#enemy13_0').clone().attr(id,).appendTo();
 //                $('#enemyBullet1_' + this.id).addClass("airwar-boss").addClass("airwar-enemyBullet1");
                 // use css sprite, reduce a lot of requests.
