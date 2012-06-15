@@ -63,7 +63,7 @@
 </head>
 <body>
 <div id="bgImgContainer" class="bgImgContainer">
-    <div id="stageBgPic"></div>
+    <div id="stageBgPic" style="display: none;"></div>
     <div id="bgImage" class="bgImage">
         <div id="startGameMenu" class="menuOuter">
             <p>Start</p>
@@ -85,9 +85,18 @@
     <div id="planeBullet1_0" class="airwar-boss airwar-planeBullet1_Power1" style="visibility: hidden"></div>
     <div id="enemyBullet1_0" class="airwar-boss airwar-enemyBullet1" style="visibility: hidden;"></div>
     <div id="enemyBullet2_0" class="airwar-boss airwar-enemyBullet2" style="visibility: hidden;"></div>
+    <div id="airwar-enemies" class="airwar-enemies" style="display: none;"></div>
 </div>
 <script>
     $(function() {
+        if ( airwar.Util.Utility._isIE9 || airwar.Util.Utility._isIE8 )
+        {
+            $( '#stageBgPic' ).addClass( "stage1" + "IE" );
+        }
+        else
+        {
+            $( '#stageBgPic' ).addClass( "stage1" );
+        }
         airwar.Util.Utility.centerElementOnScreen(  $('#bgImgContainer') );
         airwar.Menu.StartMenu.initBackground();
     })

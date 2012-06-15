@@ -37,11 +37,15 @@ airwar.Game.Stage.Stage = Class.extend( {
         // hack, the optimized png file somehow doesn't work for IE
         if ( airwar.Util.Utility._isIE9 || airwar.Util.Utility._isIE8 )
         {
-            $( '#stageBgPic' ).addClass( "stage" + number + "IE" );
+            //$( '#stageBgPic' ).addClass( "stage" + number + "IE" );
+            //$( '#stageBgPic' ).css('visibility', 'visible');
+            $( '#stageBgPic' ).css('display', 'block');
         }
         else
         {
-            $( '#stageBgPic' ).addClass( "stage" + number );
+            //$( '#stageBgPic' ).addClass( "stage" + number );
+            //$( '#stageBgPic' ).css('visibility', 'visible');
+            $( '#stageBgPic' ).css('display', 'block');
         }
         var viewportHeigth = airwar.Util.Utility.pageSize.viewportHeight;
         var imgHeight = $( '#stageBgPic' ).height();
